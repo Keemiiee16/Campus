@@ -1,0 +1,21 @@
+{
+  "name": "campus-school-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Campus - persistent Discord school bot powered by Supabase",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "discord.js": "^14.27.0",
+    "express": "^5.1.0",
+    "openai": "^7.5.0"
+  }
+}
